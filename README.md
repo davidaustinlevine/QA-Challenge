@@ -2,7 +2,7 @@
 
 Simple functional  Playwright tests written in Python (with pytest) 
 
-#Requirements:
+# Requirements:
 
    Python 3.7 or above 
    nodeJS v11 or higher
@@ -11,7 +11,7 @@ Simple functional  Playwright tests written in Python (with pytest)
    macOS == 10.14 (Mojave or higher)
 
 
-#Pre-Installation:
+# Pre-Installation:
 
    Node.js --
    macOS
