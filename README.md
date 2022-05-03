@@ -85,4 +85,4 @@ Once installed, you can import Playwright in a Python script, and launch any of 
  
    Windows
    
-    npx playwright { directory }
+    npx playwright heroku_tests
