@@ -4,11 +4,11 @@ Simple functional  Playwright tests written in Python (with pytest)
 
 # Requirements:
 
-   Python 3.7 or above 
-   nodeJS v11 or higher
-   Playwright 1.18 or higher 
-   Windows Subsystem for Linux (WSL)
-   macOS == 10.14 (Mojave or higher)
+      Python 3.7 or above 
+      nodeJS v11 or higher
+      Playwright 1.18 or higher 
+      Windows Subsystem for Linux (WSL)
+      macOS == 10.14 (Mojave or higher)
 
 
 # Pre-Installation:
@@ -57,7 +57,8 @@ Simple functional  Playwright tests written in Python (with pytest)
    
     npx playwright install
 
-Usage: Once installed, you can import Playwright in a Python script, and launch any of the 3 browsers (chromium, firefox and webkit):
+# Usage: 
+Once installed, you can import Playwright in a Python script, and launch any of the 3 browsers (chromium, firefox and webkit):
 
     from playwright.sync_api import sync_playwright
 
