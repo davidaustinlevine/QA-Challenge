@@ -52,7 +52,9 @@ Simple functional  Playwright tests written in Python
 # Install Playwright --
    Python
     
-    pip install pytest-playwright
+     pip install --upgrade pip
+     pip install playwright
+     playwright install
     
 
    nodeJS
