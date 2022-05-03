@@ -15,7 +15,9 @@ Simple functional  Playwright tests written in Python (with pytest)
 
   pip installer
   
-      pip install --upgrade pip
+     pip install --upgrade pip
+     pip install playwright
+     playwright install
   
   Node.js --
    
