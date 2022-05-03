@@ -14,6 +14,7 @@ Simple functional  Playwright tests written in Python (with pytest)
 # Pre-Installation:
 
    Node.js --
+   
    macOS
    
     brew install node
