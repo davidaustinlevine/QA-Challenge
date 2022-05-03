@@ -1,6 +1,6 @@
 # QA-Challenge
 
-Simple functional  Playwright tests written in Python (with pytest) 
+Simple functional  Playwright tests written in Python 
 
 # Requirements:
 
