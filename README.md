@@ -2,7 +2,7 @@
 
 Simple functional  Playwright tests written in Python (with pytest) 
 
-Requirements:
+#Requirements:
 
    Python 3.7 or above 
    nodeJS v11 or higher
@@ -11,7 +11,7 @@ Requirements:
    macOS == 10.14 (Mojave or higher)
 
 
-Installation:
+#Pre-Installation:
 
    Node.js --
    macOS
@@ -42,18 +42,18 @@ Installation:
     
      cinst nodejs.install
 
-Playwright --
-    # Python
+# Install Playwright --
+   Python
     
     pip install --upgrade pip
     pip install pytest-playwright
     
 
-   # nodeJS
+   nodeJS
     
     npm i -D @playwright/test
     
-   install supported browsers
+   install supported browsers (Node)
    
     npx playwright install
 
