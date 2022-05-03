@@ -69,7 +69,7 @@ Once installed, you can import Playwright in a Python script, and launch any of 
         print(page.title())
         browser.close()
 
-Running: Run all tests in the suite
+# Running: Run all tests in the suite
 
    macOS (pytest CLI)
    
