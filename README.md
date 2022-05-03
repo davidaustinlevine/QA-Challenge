@@ -28,13 +28,17 @@ Installation:
    or Using Winget:
    
      winget install OpenJS.NodeJS
-     # or for LTS
+     
+    # or for LTS
+    
      winget install OpenJS.NodeJS.LTS
 
    or Using Chocolatey:
    
      cinst nodejs
-     # or for full install with npm
+     
+    # or for full install with npm
+    
      cinst nodejs.install
 
 Playwright --
@@ -47,7 +51,9 @@ Playwright --
    nodeJS
     
     npm i -D @playwright/test
-    # install supported browsers
+    
+   # install supported browsers
+   
     npx playwright install
 
 Usage: Once installed, you can import Playwright in a Python script, and launch any of the 3 browsers (chromium, firefox and webkit):
@@ -63,8 +69,10 @@ Usage: Once installed, you can import Playwright in a Python script, and launch 
 
 Running: Run all tests in the suite
 
-    macOS (pytest CLI)
+   macOS (pytest CLI)
+   
     pytest
  
-    Windows
+   Windows
+   
     npx playwright { directory }
