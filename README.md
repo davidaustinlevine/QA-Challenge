@@ -43,17 +43,17 @@ Installation:
      cinst nodejs.install
 
 Playwright --
-    Python
+    # Python
     
     pip install --upgrade pip
     pip install pytest-playwright
     
 
-   nodeJS
+   # nodeJS
     
     npm i -D @playwright/test
     
-   # install supported browsers
+   install supported browsers
    
     npx playwright install
 
