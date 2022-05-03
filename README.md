@@ -50,7 +50,6 @@ Simple functional  Playwright tests written in Python (with pytest)
 # Install Playwright --
    Python
     
-    pip install --upgrade pip
     pip install pytest-playwright
     
 
