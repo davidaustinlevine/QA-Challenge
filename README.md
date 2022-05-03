@@ -13,7 +13,11 @@ Simple functional  Playwright tests written in Python (with pytest)
 
 # Pre-Installation:
 
-   Node.js --
+  pip installer
+  
+      pip install --upgrade pip
+  
+  Node.js --
    
    macOS
    
