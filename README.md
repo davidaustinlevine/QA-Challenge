@@ -1,6 +1,7 @@
 # QA-Challenge
 
 Simple functional  Playwright tests written in Python (with pytest) 
+
 Requirements:
     Python 3.7 or above 
     nodeJS v11 or higher
@@ -10,41 +11,46 @@ Requirements:
 
 
 Installation:
-Node.js --
-    macOS
+
+   Node.js --
+   macOS
+   
     brew install node
 
-    Android 
+   Android 
+   
     pkg install nodejs
 
-    Windows
+   Windows
+   
     Download installer directly from the node.js web site
      
-     or
-
-     Using Winget:
+   or Using Winget:
+   
      winget install OpenJS.NodeJS
      # or for LTS
      winget install OpenJS.NodeJS.LTS
 
-     Using Chocolatey:
+   or Using Chocolatey:
+   
      cinst nodejs
      # or for full install with npm
      cinst nodejs.install
 
 Playwright --
     Python
+    
     pip install --upgrade pip
     pip install pytest-playwright
     
 
-    nodeJS
+   nodeJS
+    
     npm i -D @playwright/test
     # install supported browsers
     npx playwright install
 
-Usage:
-    Once installed, you can import Playwright in a Python script, and launch any of the 3 browsers (chromium, firefox and webkit):
+Usage: Once installed, you can import Playwright in a Python script, and launch any of the 3 browsers (chromium, firefox and webkit):
 
     from playwright.sync_api import sync_playwright
 
@@ -55,8 +61,7 @@ Usage:
         print(page.title())
         browser.close()
 
-Running:
-Run all tests in the suite
+Running: Run all tests in the suite
 
     macOS (pytest CLI)
     pytest
