@@ -53,8 +53,7 @@ Simple functional  Playwright tests written in Python
    Python
     
      pip install --upgrade pip
-     pip install playwright
-     playwright install
+     pip install pytest-playwright
     
 
    nodeJS
@@ -81,7 +80,7 @@ Once installed, you can import Playwright in a Python script, and launch any of 
 
    macOS (pytest CLI)
    
-    pytest
+    pytest heroku_tests.py
  
    Windows
    
